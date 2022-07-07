@@ -1,0 +1,39 @@
+{
+  "name": "afj2minimalreactnative",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "eslint ."
+  },
+  "dependencies": {
+    "@aries-framework/core": "0.2.0",
+    "@aries-framework/react-hooks": "^0.2.0",
+    "@aries-framework/react-native": "0.2.0",
+    "axios": "^0.26.0",
+    "indy-sdk-react-native": "0.2.0",
+    "react": "17.0.2",
+    "react-native": "0.66.1",
+    "react-native-config": "^1.4.5",
+    "react-native-fs": "^2.20.0",
+    "react-native-get-random-values": "^1.7.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.9",
+    "@babel/runtime": "^7.12.5",
+    "@react-native-community/eslint-config": "^2.0.0",
+    "@types/indy-sdk": "1.16.8",
+    "@types/react": "^18.0.15",
+    "babel-jest": "^26.6.3",
+    "eslint": "7.14.0",
+    "jest": "^26.6.3",
+    "metro-react-native-babel-preset": "^0.66.2",
+    "react-test-renderer": "17.0.2"
+  },
+  "jest": {
+    "preset": "react-native"
+  }
+}
